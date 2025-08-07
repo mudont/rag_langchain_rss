@@ -1,0 +1,51 @@
+{
+  "model_provider": "openai",
+  "openai": {
+    "api_key": "",
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.1
+  },
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "llama2",
+    "temperature": 0.1
+  },
+  "lmstudio": {
+    "base_url": "http://localhost:1234/v1",
+    "api_key": "lm-studio",
+    "model": "local-model",
+    "temperature": 0.1
+  },
+  "embeddings": {
+    "provider": "huggingface",
+    "model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "areas_of_interest": [
+    "technology",
+    "politics",
+    "business",
+    "health",
+    "science",
+    "sports",
+    "entertainment",
+    "world news",
+    "climate",
+    "economy"
+  ],
+  "rss_feeds": {
+    "BBC": "http://feeds.bbci.co.uk/news/rss.xml",
+    "CNN": "http://rss.cnn.com/rss/edition.rss",
+    "Reuters": "https://feeds.reuters.com/reuters/topNews",
+    "AP News": "https://feeds.apnews.com/apnews/topnews",
+    "NPR": "https://feeds.npr.org/1001/rss.xml",
+    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "The Guardian": "https://www.theguardian.com/world/rss",
+    "Associated Press": "https://feeds.apnews.com/apnews/world"
+  },
+  "output": {
+    "max_articles_per_source": 20,
+    "summary_length": "medium",
+    "include_sources": true,
+    "output_format": "both"
+  }
+}

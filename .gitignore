@@ -1,0 +1,9 @@
+config.json
+config_used.json
+news_summary_*.md
+news_data_*.json
+*.log
+news/
+*.zip
+README.txt
+*.pyc

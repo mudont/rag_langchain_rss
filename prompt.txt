@@ -1,0 +1,4 @@
+complete python code, to use a few free RSS feeds such as bbc, cnn, reuters ,  ap, etc that are free, and use RAG and langchain to generate a summary of recent news. I want to indicate upto 10 areas of interest.
+
+support OpenAI, ollama, and lmstudio local models. Configuration should choose the model.
+Then make the files as download friendly as possible. Ideally a single zip file.
